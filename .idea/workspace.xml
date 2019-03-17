@@ -6,9 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67dcc186-1c0f-4a3d-90e4-194a853af0cd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="67dcc186-1c0f-4a3d-90e4-194a853af0cd" name="Default Changelist" comment="ssm框架整合" />
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../../mybatis/mybatis-demo01/target/" />
@@ -74,8 +72,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../../mybatis/mybatis-demo01/src/main/resources/mybatis-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+            <state relative-caret-position="322">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -142,9 +140,9 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="63" />
-    <option name="y" value="26" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="81" />
+    <option name="y" value="596" />
     <option name="width" value="1440" />
     <option name="height" value="804" />
   </component>
@@ -422,7 +420,7 @@
       <workItem from="1552830234308" duration="147000" />
       <workItem from="1552830427259" duration="272000" />
       <workItem from="1552831397645" duration="1767000" />
-      <workItem from="1552837150033" duration="65000" />
+      <workItem from="1552837150033" duration="322000" />
     </task>
     <task id="LOCAL-00001" summary="ssm框架整合">
       <created>1552836700435</created>
@@ -431,7 +429,21 @@
       <option name="project" value="LOCAL" />
       <updated>1552836700436</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ssm框架整合">
+      <created>1552837273462</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1552837273462</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ssm框架整合">
+      <created>1552837312905</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1552837312905</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -467,7 +479,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36146000" />
+    <option name="totallyTimeSpent" value="36403000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -479,7 +491,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1440" height="804" extended-state="6" />
+    <frame x="81" y="596" width="1440" height="804" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18696275" />
@@ -962,8 +974,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../mybatis/mybatis-demo01/src/main/resources/mybatis-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        <state relative-caret-position="322">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
