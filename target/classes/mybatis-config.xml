@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <properties resource="db.properties" />
+    <!-- mybatis环境配置 -->
+    <environments default="mysql">
+        <environment id="mysql">
+            <!-- 事务管理 -->
+            <transactionManager type="JDBC" />
+            <dataSource type="POOLED">
+                <property name="driver" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}" />
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <!-- 指定映射配置文件的位置，每一个dao一个配置文件。 -->
+    <mappers>
+
+        <!-- 要求mapper接口名称和mapper映射文件名称相同，且放在同一个目录中 -->
+        <!--<mapper class="com.cc.mybatis.dao.UserDao" />-->
+        <!-- 要求mapper接口名称和mapper映射文件名称相同，且放在同一个目录中 -->
+        <package name="com.lyg.ssm.mapper" />
+    </mappers>
+</configuration>
